@@ -1,0 +1,16 @@
+#root {
+  width: 1440px;
+  height: 1024px;
+  margin: auto;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./fonts/Philosopher-Regular.ttf') format('truetype');
+}
+
+.main {
+  display: flex;
+  font-family: 'CustomFont', sans-serif;
+}

@@ -1,0 +1,57 @@
+
+.hairproblems-page {
+    width: 1440px;
+    height: 1024px;
+}
+
+.question-container {
+    width: 786px;
+    height: 244px;
+    margin-top: 352px;
+    margin-left: 327px;
+}
+.question-container h3 {
+    font-size: 40px;
+}
+
+.choices {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+}
+
+.choice-button {
+    border: 2px solid  #C3EDFF;
+    border-radius: 8px;
+    width: auto;
+    height: 44px;
+    cursor: pointer;
+    padding: 0px 21px 0px 21px;
+    background-color: transparent;
+}
+
+.back-button {
+    color: gray;
+    text-decoration: underline;
+    font-size: medium;
+    font-weight:bolder;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 15px;
+    background-color: transparent;
+}
+
+.next-button {
+    background-color: #C3EDFF;
+    color: black;
+    padding: 15px 20px;
+    font-size: medium;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
